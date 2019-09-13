@@ -11,7 +11,7 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
      $(this).css("background-color", "Orange");
  });
 
-
+// !! You successfully change the single elements color
 
 
 /* When you mouse over the "Selectors Exercise" element, change the height&width to 20px.
@@ -29,7 +29,7 @@ $('h1').mouseleave(function(){
     $(this).css('height','');
     $(this).css('width','');
 });
-
+// !! nice use of saving variables for use so you don't have to repeat it
 
 // CHALLENGE
 /* Each time the sentence "I am a paragraph with a class" is clicked, add a "." to the end of the sentence. */
@@ -37,3 +37,4 @@ $('h1').mouseleave(function(){
     {
         $('p.hello').append('.')
     });
+// !! you successfully change the text as well!
